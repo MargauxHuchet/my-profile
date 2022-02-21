@@ -1,0 +1,110 @@
+/* Colors and fonts */ 
+body {
+	background-color: #FDEFF4; 
+	color: #FFC0D3;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, {
+	font-family:'Roboto', sans-serif;
+}
+
+h1 {
+	color: #FF5C8D;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #FF5C8D;
+	font-size: 26px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+  font-family:'Roboto', sans-serif;
+  text-decoration: none;
+  color: #FF5C8D;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+	color: #524A4E;
+}
+
+
+
+
+
+/* Custom design with class (99% of your design) */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		background-color: #FDEFF4;
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: #FDEFF4;
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #524A4E;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: #FFC0D3;
+	color: FF5C8D;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: #FFC0D3;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding-left: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #FFC0D3;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: #FF5C8D;
+}
+
+
+/* Design adjustment using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
